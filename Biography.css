@@ -1,10 +1,11 @@
 
 .site-header{
-    background-color: #003153;
-    color: #d7c447;
-    text-shadow: 2px 2px #e60012;
+    color: #ffffff;
+    text-shadow: 4px 4px #797979;
     font-family: 'Nunito', sans-serif;
-}
+    background-image: url(https://pbs.twimg.com/media/FXfLIvUWIAEfaj1?format=jpg&name=large);
+    }
+
 
 /*Daravy meas and A Biography*/
 
@@ -27,7 +28,12 @@ p{
 }
 
 /*body*/
-h3{
+
+.body{
+    
     text-align: center;
     font-family: 'Nunito', sans-serif;
+}
+h5{
+    text-align: left;
 }
