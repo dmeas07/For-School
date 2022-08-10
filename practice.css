@@ -1,0 +1,45 @@
+/*tag name selector*/
+h1{
+    color:white;
+    background-color:black;
+    text-align:center;
+}
+
+a{text-decoration: none;
+}
+
+/*class name selector*/
+.Text{
+    text-align:justify;
+    font: size 18px;
+    color:darkgray;
+}
+h3.Text{
+    color:red;
+}
+/*id selector #*/
+#addBtn{
+    background-color: darkcyan;
+    color:white;
+    border: none;
+    padding:20px;
+
+}
+
+header nav.menu{/*parent*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space;
+    background-color: lightgray;
+}
+
+header nav.menu a{/*child*/
+    color: white;
+    background-color: black;
+    width: 150px;
+}
+
+footer nav.menu{
+    background-color: black;
+}
+
